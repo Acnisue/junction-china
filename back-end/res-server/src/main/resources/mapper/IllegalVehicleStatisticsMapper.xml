@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.acanisue.mapper.IllegalVehicleStatisticsMapper">
+
+    <resultMap id="BaseResultMap" type="com.acanisue.domain.IllegalVehicleStatistics">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="vehicleType" column="vehicle_type" jdbcType="VARCHAR"/>
+            <result property="violationType" column="violation_type" jdbcType="VARCHAR"/>
+            <result property="cameraId" column="camera_id" jdbcType="INTEGER"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,vehicle_type,violation_type,
+        camera_id,create_time
+    </sql>
+    <select id="selectTimeM" resultType="com.acanisue.domain.KeyValue">
+        select date_format(create_time, '%Y-%m') time, count(*) num
+        from illegal_vehicle_statistics
+        group by date_format(create_time, '%Y-%m');
+    </select>
+    <select id="selectTimeY" resultType="com.acanisue.domain.KeyValue">
+        select date_format(create_time, '%Y') time, count(*) num
+        from illegal_vehicle_statistics
+        group by date_format(create_time, '%Y');
+    </select>
+    <select id="selectTimeD" resultType="com.acanisue.domain.KeyValue">
+        select date_format(create_time, '%Y-%m-%d') time, count(*) num
+        from illegal_vehicle_statistics where date_format(create_time, '%Y-%m-%d') in ${s}
+        group by date_format(create_time, '%Y-%m-%d')
+    </select>
+    <select id="selectTimeH" resultType="com.acanisue.domain.KeyValue">
+        select date_format(create_time, '%Y-%m-%d %H') time, count(*) num
+        from illegal_vehicle_statistics where date_format(create_time, '%Y-%m-%d %H') in ${s}
+        group by date_format(create_time, '%Y-%m-%d %H')
+    </select>
+</mapper>

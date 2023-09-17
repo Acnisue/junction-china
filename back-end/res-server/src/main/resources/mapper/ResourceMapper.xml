@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.acanisue.mapper.ResourceMapper">
+
+    <resultMap id="BaseResultMap" type="com.acanisue.domain.ResourceDB">
+            <id property="resourceId" column="resource_id" jdbcType="BIGINT"/>
+            <result property="resourcePath" column="resource_path" jdbcType="VARCHAR"/>
+            <result property="resourceProcessing" column="resource_processing" jdbcType="VARCHAR"/>
+            <result property="resourceFrom" column="resource_from" jdbcType="INTEGER"/>
+            <result property="resourceDel" column="resource_del" jdbcType="TINYINT"/>
+            <result property="resourceIsProcessing" column="resource_is_processing" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        resource_id,resource_path,resource_from,
+        resource_del,resource_is_processing,resource_processing
+    </sql>
+</mapper>
