@@ -1,0 +1,9 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /Users/robot/Desktop/Projects/Python/tricycle-recoginze/vision/yolov5/burn/images
+val: /Users/robot/Desktop/Projects/Python/tricycle-recoginze/vision/yolov5/burn/images
+#labels: /Users/robot/Desktop/Projects/Python/tricycle-recoginze/vision/yolov5/burn/labels
+# number of classes
+nc: 5
+#images: /Users/robot/Desktop/Projects/Python/tricycle-recoginze/vision/yolov5/burn/images
+# class names
+names: ['empty','only_driver','overloading','passenger','driver']
