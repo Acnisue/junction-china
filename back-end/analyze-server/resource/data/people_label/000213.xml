@@ -1,0 +1,26 @@
+<annotation>
+	<folder>wyt</folder>
+	<filename>000213.jpg</filename>
+	<path>C:\Users\asrkc\Desktop\wyt\000213.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>497</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>empty</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>6</xmin>
+			<ymin>132</ymin>
+			<xmax>485</xmax>
+			<ymax>468</ymax>
+		</bndbox>
+	</object>
+</annotation>

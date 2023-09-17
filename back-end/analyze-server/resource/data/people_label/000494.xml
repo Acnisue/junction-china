@@ -1,0 +1,26 @@
+<annotation>
+	<folder>xrx</folder>
+	<filename>000494.jpg</filename>
+	<path>C:\Users\Administrator\Desktop\xrx\000494.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>220</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>only_driver</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>87</xmin>
+			<ymin>48</ymin>
+			<xmax>277</xmax>
+			<ymax>220</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>empty</folder>
+	<filename>000028.jpg</filename>
+	<path>/Users/robot/Desktop/Projects/Python/tricycle-recoginze/resource/data/empty/000028.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>683</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>empty</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>46</xmin>
+			<ymin>51</ymin>
+			<xmax>650</xmax>
+			<ymax>479</ymax>
+		</bndbox>
+	</object>
+</annotation>

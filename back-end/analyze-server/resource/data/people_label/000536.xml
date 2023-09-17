@@ -1,0 +1,26 @@
+<annotation>
+	<folder>xrx</folder>
+	<filename>000536.jpg</filename>
+	<path>C:\Users\Administrator\Desktop\xrx\000536.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>empty</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>76</ymin>
+			<xmax>379</xmax>
+			<ymax>334</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>321</folder>
+	<filename>000364.jpg</filename>
+	<path>C:\Users\Administrator\Desktop\321\000364.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>only_driver</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>19</xmin>
+			<ymin>72</ymin>
+			<xmax>488</xmax>
+			<ymax>452</ymax>
+		</bndbox>
+	</object>
+</annotation>

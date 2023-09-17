@@ -1,0 +1,26 @@
+<annotation>
+	<folder>321</folder>
+	<filename>000387.jpg</filename>
+	<path>C:\Users\Administrator\Desktop\321\000387.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>310</width>
+		<height>310</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>empty</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>9</xmin>
+			<ymin>67</ymin>
+			<xmax>299</xmax>
+			<ymax>291</ymax>
+		</bndbox>
+	</object>
+</annotation>
