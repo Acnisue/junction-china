@@ -1,0 +1,16 @@
+{
+  "id": "4254494",
+  "name": "junction",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1317802",
+      "name": "沟通页_左箭头_返回",
+      "font_class": "goutongye_zuojiantou_fanhui",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    }
+  ]
+}
